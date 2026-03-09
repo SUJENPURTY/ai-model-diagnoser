@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # model-diagnoser
 
 > AI-powered machine learning model diagnostics and debugging toolkit
@@ -418,3 +419,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 ---
 
 Made by [Sujen Purty](https://github.com/SUJENPURTY)
+=======
+# ai-model-diagnoser
+AI-powered Python package for diagnosing machine learning models, detecting issues, and providing intelligent explanations with suggested fixes.
+>>>>>>> f89c69a825940eb1adc542797f2abcc41e497c03
