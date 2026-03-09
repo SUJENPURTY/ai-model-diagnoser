@@ -1,0 +1,52 @@
+
+    <html>
+    <head>
+        <title>Model Diagnosis Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+            }
+            h1 {
+                color: #2c3e50;
+            }
+            h2 {
+                color: #34495e;
+            }
+            .issue {
+                color: red;
+                font-weight: bold;
+            }
+            .ok {
+                color: green;
+                font-weight: bold;
+            }
+            pre {
+                background: #f4f4f4;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Model Diagnosis Report</h1>
+        <p>Generated on: 2026-03-09 21:43:06.016038</p>
+
+        <h2>Performance Metrics</h2>
+        <pre>{'accuracy': 0.915, 'precision': 0.917157894736842, 'recall': 0.915, 'f1_score': 0.9149553649571154, 'roc_auc': 0.9781912765106043, 'confusion_matrix': [[90, 12], [5, 93]], 'classification_report': {'0': {'precision': 0.9473684210526315, 'recall': 0.8823529411764706, 'f1-score': 0.9137055837563451, 'support': 102.0}, '1': {'precision': 0.8857142857142857, 'recall': 0.9489795918367347, 'f1-score': 0.916256157635468, 'support': 98.0}, 'accuracy': 0.915, 'macro avg': {'precision': 0.9165413533834585, 'recall': 0.9156662665066027, 'f1-score': 0.9149808706959066, 'support': 200.0}, 'weighted avg': {'precision': 0.917157894736842, 'recall': 0.915, 'f1-score': 0.9149553649571154, 'support': 200.0}}}</pre>
+
+        <h2>Overfitting Check</h2>
+        <pre>{'issue': 'No overfitting detected', 'gap': 0.08499999999999996}</pre>
+
+        <h2>Class Imbalance</h2>
+        <pre>{'issue': 'No class imbalance detected', 'class_distribution': {np.int64(0): np.int64(395), np.int64(1): np.int64(405)}}</pre>
+
+        <h2>Data Leakage</h2>
+        <pre>{'issue': 'No data leakage detected'}</pre>
+
+        <h2>Data Drift</h2>
+        <pre>{'issue': 'No significant data drift detected'}</pre>
+
+    </body>
+    </html>
+    
