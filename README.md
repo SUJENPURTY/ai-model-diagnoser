@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-## 📦 Model Diagnoser
-
 ## 📦 Model Diagnoser
 
 [![PyPI version](https://img.shields.io/pypi/v/model-diagnoser.svg)](https://pypi.org/project/model-diagnoser/)
 [![Downloads](https://img.shields.io/pypi/dm/model-diagnoser.svg)](https://pypi.org/project/model-diagnoser/)
-
-Model Diagnoser is a Python package for diagnosing machine learning models,
-including residual analysis, multicollinearity detection, and performance evaluation.
-
-🔗 [View on PyPI](https://pypi.org/project/model-diagnoser/)
 
 > AI-powered machine learning model diagnostics and debugging toolkit
 
@@ -19,6 +11,7 @@ including residual analysis, multicollinearity detection, and performance evalua
 
 **model-diagnoser** is a Python toolkit that automatically diagnoses common issues in machine learning models — overfitting, class imbalance, data leakage, and data drift — and provides actionable suggestions to fix them. It generates detailed HTML or PDF reports and optionally leverages OpenAI for deeper explanations.
 
+🔗 [View on PyPI](https://pypi.org/project/model-diagnoser/)
 ---
 
 ## Features
