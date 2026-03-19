@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 # model-diagnoser
+https://pypi.org/project/model-diagnoser/
 
 > AI-powered machine learning model diagnostics and debugging toolkit
 
